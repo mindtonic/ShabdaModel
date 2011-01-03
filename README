@@ -1,0 +1,40 @@
+=Shabda Model
+
+A set of php5 Model Mapping classes based on Active Record and extracted from the Shabda Content Management System.
+
+=To Test Shabda Model
+
+* Download the classes
+* Create a Database (I call mine shabda_model)
+* Set the database connection information in config.php
+* Import the quotes.sql data into your database
+* load up index.php in your browser
+
+=Class Overview
+
+MODEL
+
+The main Model class.  All of your database models will inherit from this class.
+
+DATABASE MANAGER
+
+Handles the database connection and is a single conduit for all queries.
+
+MODEL MAPPER
+
+Stores and clones new blank models when they are needed.
+
+FACTORY
+
+Handles all of the Find functionality for locating Models.
+
+OBSERVER
+
+Different classes for observing and recording the activity of the system.
+
+=Documentation
+
+Further documentation will be coming soon as well as a set of tests to cover the code.
+
+Jay Sanders
+mindtonic (at) gmail (dot) com
